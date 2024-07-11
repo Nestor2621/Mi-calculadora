@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="encabezado">
+            <h1>Mi Calculadora</h1>
+            <br />
+            <br />
+            <img width="100" src="./escudo.png">
+            
+        </div>
+            <input type="text" id="panel" class="input-field" />
+        <br />
+        <div class="button-container">
+            
+            <input type="button" value="7" onclick="caracter('7')" class="button" />
+            <input type="button" value="8" onclick="caracter('8')" class="button" />
+            <input type="button" value="9" onclick="caracter('9')" class="button" />
+            <input type="button" value="÷" onclick="caracter('/')" class="button" />
+            <input type="button" value="6" onclick="caracter('6')" class="button" />
+            <input type="button" value="5" onclick="caracter('5')" class="button" />
+            <input type="button" value="4" onclick="caracter('4')" class="button" />
+            <input type="button" value="*" onclick="caracter('*')" class="button" />
+
+            <input type="button" value="1" onclick="caracter('1')" class="button" />
+            <input type="button" value="2" onclick="caracter('2')" class="button" />
+            <input type="button" value="3" onclick="caracter('3')" class="button" />
+            <input type="button" value="-" onclick="caracter('-')" class="button" />
+
+            <input type="button" value="0" onclick="caracter('0')" class="button" />
+            <input type="button" value="." onclick="caracter('.')" class="button" />
+            <input type="button" value="=" onclick="Resultado()" class="button" />
+            <input type="button" value="+" onclick="caracter('+')" class="button" />
+            <br />
+            <input type="button" value="C" onclick="Clear()" class="button" />
+        </div>
+        <h6>DESING BY Nestor Cortes</h6>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
